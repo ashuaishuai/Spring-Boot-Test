@@ -11,7 +11,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String index(){
-        return "hello spring boot first commit";
+        return "hello spring boot first commit test";
     }
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
